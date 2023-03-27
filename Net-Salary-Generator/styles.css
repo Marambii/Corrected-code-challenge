@@ -1,0 +1,22 @@
+
+/*for the body */
+body{
+    background-color: antiquewhite;
+    display: relative;
+    text-align: center;
+    padding-top: 350px;
+}
+/* styling the form */
+form{
+    padding: 20px;
+    
+}
+/* styling the button */
+button{
+    background-color: bisque;
+    padding: 10px 20px;
+}
+/* styling the output */
+.output{
+    padding: 20px;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Overspeeding ticket generator</title>
+    <!-- CSS linking-->
+    <link rel="stylesheet" type="text/css" href="styles.css">
+  </head>
+  <body>
+
+<!--The division that holds the form and the button-->
+    <div class ="container">
+        <h1>Speeding Ticket Calculator</h1>
+        <label for="speed">Insert speed in km/h:</label>
+        <input type="number" id="speed" name="speed" required>
+        <!-- THe button that generates the comments-->
+        <button onclick="calculatePoints()">Calculate Speed</button>
+        <!-- The Output section that displays the comments depending on speed-->
+        <div >
+            <p id="output"></p>
+        </div>
+
+    </div>
+<!-- JS linking-->
+    <script src="script.js"></script>
+  </body>
+</html>

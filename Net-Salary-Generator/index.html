@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- css linking -->
+    <link rel="stylesheet" href="styles.css">
+    <!-- document title -->
+    <title>Tax Generator</title>
+</head>
+<body>
+    <H1>Tax Generator</H1>
+    <!-- The form input point -->
+<!-- basic salary input -->
+    <form action="insert basic salary">
+        <label for="Salary"> Basic salary</label>
+        <input type="number" id="salary" name="Basic Salary" required >
+<!-- benefits input -->
+    </form>
+    <form action="insert benfits">
+        <label for="Benefits">Benefits</label>
+        <input type="number" id="benefits" name="Benefits" required>
+
+    </form>
+    <!-- the generator button -->
+    <div>
+        <Button onclick="calculateNetPay()">CALCULATE</Button>
+    </div>
+
+    <!-- The output point for salary,and deductions -->
+
+    <div class="output">
+        <div id="Payeoutput">PAYE:</div>
+        <div id="NSSFoutput">NSSF:</div>
+        <div id="NHIFoutput">NHIF:</div>
+        <div id="Netsalary"> Net Pay:</div>
+    </div>
+
+    <!-- javascript linking -->
+    <script src="script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,30 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: bisque;
+  }
+  /* header */
+  h1 {
+    margin-bottom: 1rem;
+    -webkit-text-fill-color:rgb(139, 111, 74) ;
+  }
+  /* label marks */
+  label {
+    margin-right: 0.5rem;
+  }
+  /* the input port*/
+  input {
+    margin-right: 0.5rem;
+  }
+  /* the grade generator button */
+  button {
+    margin-top: 1rem;
+  }
+  /*the mark output point*/
+  #output {
+    margin-top: 1rem;
+  }
+  
